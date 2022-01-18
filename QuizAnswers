@@ -1,0 +1,62 @@
+Polymorphism
+
+WHAT DOES THE WORD 'POLYMORPHISM' MEAN?
+
+Something that occurs in many different forms/shapes.
+
+
+
+WHAT DOES IT MEAN WHEN WE APPLY POLYMORPHISM TO OO DESIGN?
+
+It means that we are using methods inherited from different classes and using them to perform different tasks/actions.
+
+
+
+WHAT CAN WE USE TO IMPLEMENT POLYMORPHISM IN JAVA?
+
+Interfaces in abstract classes
+
+
+
+HOW MANY 'FORMS' CAN AN OBJECT TAKE WHEN USING POLYMORPHISM?
+
+As many as you want
+
+
+
+GIVE AN EXAMPLE OF WHEN YOU COULD USE POLYMORPHISM
+
+
+
+Composition and Aggregation
+
+WHAT DO WE MEAN BY 'COMPOSITION' IN REFERENCE TO OO PROGRAMMING?
+
+An object being made up of other objects
+
+
+
+WHEN WOULD YOU USE COMPOSITION?
+
+
+
+GIVE A DIFFERENCE BETWEEN COMPOSITION AND AGGREGATION?
+
+A child class can exist independently with an aggregation, wheres with a composition the child cannot exist independently
+
+
+
+WHAT IS/ARE THE ADVANTAGE(S) OF USING COMPOSITION/AGGREGATION?
+
+
+
+
+WHEN USING COMPOSITION, WHEN AN OBJECT IS DESTROYED, WHAT HAPPENS TO ALL THE OBJECTS IT IS COMPOSED OF?
+
+All of the objects are destroyed
+
+
+
+WHEN USING AGGREGATION, WHEN AN OBJECT IS DESTROYED, WHAT HAPPENS TO ALL THE OBJECTS IT IS COMPOSED OF?
+
+If one object is destroyed, the other objects are able to exist independently
