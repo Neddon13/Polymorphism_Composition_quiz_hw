@@ -28,6 +28,9 @@ GIVE AN EXAMPLE OF WHEN YOU COULD USE POLYMORPHISM
 
 If you have a ThemePark class and are using many different rides that have restrictions on them. For example creating an ISecurity interface and implementing that in your abstract class.
 
+
+
+
 Composition and Aggregation
 
 WHAT DO WE MEAN BY 'COMPOSITION' IN REFERENCE TO OO PROGRAMMING?
@@ -62,7 +65,7 @@ A child class can exist independently with an aggregation, whereas with a compos
 
 WHAT IS/ARE THE ADVANTAGE(S) OF USING COMPOSITION/AGGREGATION?
 
-Composition allows us to reuse code by multiple Inheritance which ultimately provides better test ability of the classes
+Composition and Aggregation allows us to reuse code by multiple Inheritance which ultimately provides better test ability of the classes
 
 
 
