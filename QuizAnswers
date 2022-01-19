@@ -38,15 +38,31 @@ An object being made up of other objects
 
 WHEN WOULD YOU USE COMPOSITION?
 
+When one object is part of another object. For example;
+
+Class Page {
+    private String Chapter;
+    private int pageNum;
+}
+
+Class Book {
+    private Page page;
+
+    public Book() {
+    this.page = new Page();
+    }
+}
 
 
 GIVE A DIFFERENCE BETWEEN COMPOSITION AND AGGREGATION?
 
-A child class can exist independently with an aggregation, wheres with a composition the child cannot exist independently
+A child class can exist independently with an aggregation, whereas with a composition the child cannot exist independently
 
 
 
 WHAT IS/ARE THE ADVANTAGE(S) OF USING COMPOSITION/AGGREGATION?
+
+Composition allows us to reuse code by multiple Inheritance which ultimately provides better test ability of the classes
 
 
 
